@@ -4,7 +4,7 @@
 // https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions
 
 function getDiv() {
-  const rootDiv = document.getElementById('root');
+  const rootDiv = document.getElementById('root') as HTMLDivElement;
 }
 
 export {};
